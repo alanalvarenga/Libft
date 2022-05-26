@@ -6,16 +6,18 @@
 /*   By: alachris <alachris@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/04/06 01:09:20 by alachris          #+#    #+#             */
-/*   Updated: 2022/04/29 23:04:27 by alachris         ###   ########.fr       */
+/*   Updated: 2022/05/26 22:11:18 by alachris         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef LIBFT_H
 # define LIBFT_H
 
+# define INT_MAX 2147483647
+# define INT_MIN -2147483648
+
 # include <unistd.h>
 # include <stdlib.h>
-# include <limits.h>
 
 typedef struct s_list
 {
